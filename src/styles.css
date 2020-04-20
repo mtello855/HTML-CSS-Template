@@ -1,0 +1,156 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+/*HEADER*/
+.box {
+  display: flex;
+}
+.space {
+  justify-content: space-between;
+}
+.no-style {
+  list-style-type: none;
+  margin-top: 30px;
+  padding: 0;
+}
+.horizontal li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.horizontal a {
+  margin: 0;
+  color: #ffffff;
+  background-color: #ff4d4d;
+  text-align: center;
+  padding: 15px;
+}
+.horizontal a:hover,
+.horizontal a:active {
+  color: #b3b3b3;
+}
+a {
+  text-decoration: none;
+}
+
+.horizontal li:first-child a {
+  border-radius: 15px 0px 0px 15px;
+}
+
+.horizontal li:last-child a {
+  border-radius: 0px 15px 15px 0px;
+}
+/*Primer contenido*/
+.text1 {
+  text-align: center;
+  font-size: 25px;
+}
+/*imagen principal*/
+.photo {
+  display: block;
+  margin: auto;
+  width: 960px;
+  height: 350px;
+}
+/*divisor de contenido*/
+.services {
+  position: absolute;
+  color: #ffffff;
+  background-color: #ff4d4d;
+  text-align: center;
+  margin: -70px 470px;
+  padding: 10px 40px 10px 40px;
+  border-radius: 15px;
+  z-index: 1;
+}
+.service {
+  margin: 50px 0px;
+}
+/*Navegacion*/
+.indo {
+  font-size: 20px;
+  font-weight: bold;
+}
+.content {
+  color: #595959;
+}
+.read,
+a {
+  color: #ff4d4d;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+}
+#players {
+  display: flex;
+  justify-content: space-between;
+}
+.profile {
+  width: 180px;
+  height: 180px;
+}
+.work {
+  width: 300px;
+  height: 160px;
+  margin-bottom: 50px;
+}
+#news {
+  display: flex;
+  justify-content: space-between;
+}
+/*footer*/
+.lacinia {
+  width: 95px;
+  height: 95px;
+  margin-right: 20px;
+}
+.titulo {
+  color: #ff4d4d;
+  font-weight: bold;
+  font-size: 18px;
+}
+#footer {
+  background-color: #cccccc;
+}
+.submit {
+  color: #ffffff;
+  background-color: #ff4d4d;
+  padding: 10px 25px 10px 25px;
+  border-radius: 15px;
+  border-style: hidden;
+}
+.metuervestas {
+  display: inline-block;
+  margin-left: 30px;
+}
+.metu {
+  margin-top: 60px;
+}
+.footerclass {
+  display: flex;
+  justify-content: space-between;
+}
+.contact {
+  margin-right: 30px;
+  margin-left: 10px;
+}
+.massage {
+  color: #595959;
+  width: 170px;
+  height: 150px;
+}
+.Template {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -50px;
+  margin-right: 20px;
+}
+.copy {
+  margin-left: 20px;
+}
+.foot {
+  margin: 20px;
+}
